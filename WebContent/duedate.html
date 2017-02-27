@@ -1,0 +1,117 @@
+
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" href="resources/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="resources/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="resources/js/jquery-ui/jquery-ui.js"></script>
+<script type="text/javascript" src="resources/js/duedate.js"></script>
+<script type="text/javascript">
+function show() {
+	var a=document.getElementById("dt");
+	if(a.value=="")
+	{
+		alert("Please Select a Date");
+	}
+	else
+	{
+		var date=new Date(a.value);
+		date.setDate(date.getDate()+270);
+		var months = new Array(	"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
+        var month=months[date.getMonth()];
+        var dat=date.getDate();
+        var year=date.getFullYear();
+        var duedate="Your Due Date is"+"\n"+month+" "+dat+" "+year;
+        document.getElementById("val").innerHTML=duedate;
+    	document.getElementById("due").style.display="block";
+	}	
+}
+</script>
+<title>Insert title here</title>
+</head>
+<body style="background-color:#f4e8de">
+<nav  style="background-color:#42597f;" class="navbar navbar-default">
+   <div class="container">
+         <div class="navbar-header">
+         <a href="index.html" style="color:white;" class="navbar-brand">PregnoCare</a>
+         </div>
+         <div>
+         <ul class="nav navbar-nav" >
+         <li><a href="index.html" style="color:white;" >Home</a></li>
+         <li ><a href="Diet.html" style="color:white;">Diet</a></li>
+         <li><a href="" style="color:white;">Exercise</a></li>
+         <li><a href="weekbyweek.html" style="color:white;">Week-By-Week</a></li>
+         <li><a href="" style="color:white;">About Us</a></li>
+         <li><a href="" style="color:white;">Contact Us</a></li>
+         </ul>
+         </div>
+         </ul>
+   </div>
+</nav>
+<div class="container" style="margin-top:0px;">
+<div class="text-center">
+<h1 style="background-color:#4c6999;padding:15px;margin-bottom:0;margin-top:0;color:white;">Due Date Calculator</h1>
+<p style="">Your pregnancy journey has begun! When is your due date?<br>
+ Estimate when you can expect your baby.</p>
+ <h3>CALCULATE MY DUE DATE ACCORDING TO:</h3>
+ <form action="" method="post">
+ <div class="form-group">
+ <div class="radio enabled">
+  <label><input type="radio" name="optradio" checked>First day of my last period</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="optradio">Date i conceived</label>
+</div>
+  <div class="input-group col-md-3">
+    <label>PICK UP DATE</label>
+    <input type="date" class="form-control" id="dt" name="date">
+ </div>
+ <br><br>
+<div class="input-group col-md-2">
+    <button class="btn btn-primary" type="button" onclick="show();" class="form-control">CALCULATE NOW!</button>
+</div>
+</div>
+</form>
+<div id="due" class="text-centre" style="display:none;">
+<h4 id="val"></h4>
+</div>
+
+
+
+
+<div class="row">
+<div class="col-md-6">
+<h4>HOW DOES THE PREGNANCY CALCULATOR WORK?</h4>
+<p>Most pregnancies last around 40 weeks (or 38 weeks from conception), so the best way to estimate your pregnancy due date is to count 40 weeks from the start of your last period. This is how your doctor will estimate your due date-and it's a pretty solid target. But remember: It's just as normal to deliver a week or two before or after.
+</p>
+<hr style="color:black;border:1px solid black;">
+<div class="col-md-12">
+<h4>Due Date FAQ</h4><br>
+<h5><b>1.How is my pregnancy due date calculated?</b></h5>
+<p>Your due date is calculated by subtracting 3 months from the 1st day
+of your last menstrual period(LMP),then adding 7 days-thats your due date
+the following year. For example,say your last period began on April 11.
+Count backward 3 months, which gets you to January, and then add 7 days.
+Your pregnancy due date would be January 18. Remember, though,
+that the medical term for "due date" is EDD, or estimated date
+of delivery-which means the date your practitioner gives you is
+only an educated estimate. And keep in mind that if your baby is born on your
+due date, he or she is actually only 38 weeks old, not 40, since you clock in
+two weeks of pregnancy before you actually conceive.
+</p>
+</div>
+<div class="col-md-12">
+<h5><b>2.How many babies are born on their due dates?</b></h5>
+<p>According to most studies, only one in 20 babies is actually
+born on his or her due date. Because a normal pregnancy often lasts
+anywhere from 38 to 42 weeks, most infants are born within two weeks
+either way of your EDD - which keeps most parents guessing right to delivery day.
+</p>
+</div>
+</div>
+</div>
+
+
+</body>
+</html>
