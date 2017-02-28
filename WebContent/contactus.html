@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset="ISO-8859-1">
@@ -6,18 +6,28 @@
 <link rel="stylesheet" href="resources/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script type="text/javascript" src="resources/js/bootstrap.min.js"></script>
-<title>PregnoCare</title>
+<title>Pregnocare</title>
 </head>
-<body style="background-color:#f4e8de" data-spy="scroll" data-target=".navbar" data-offset="50">
+<body style="background-color: #eaecef">
 <nav  style="background-color:#42597f;" class="navbar navbar-default">
    <div class="container">
-   <div class="navbar-header">
-         <a href="index.html" style="color:white;" class="navbar-brand"><b>PregnoCare</b></a>
-     </div>
-     <div>
-<form name="htmlform" method="post" action="html_form_send.php">
+         <div class="navbar-header">
+         <a href="index.html" style="color:white;" class="navbar-brand">PregnoCare</a>
+         </div>
+         <div>
+         <ul class="nav navbar-nav" >
+         <li><a href="index.html" style="color:white;" >Home</a></li>
+         <li ><a href="Diet.html" style="color:white;">Diet</a></li>
+         <li><a href="Exercises.html" style="color:white;">Exercise</a></li>
+         <li><a href="weekbyweek.html" style="color:white;">Week-By-Week</a></li>
+         <li><a href="contactus.html" style="color:white;">Contact Us</a></li>
+         </ul>
+         </div>
+    
+  </div>
+</nav>
+<form name="Feedback" method="post" action="contactussend.php">
 <table width="450px">
-</tr>
 <tr>
  <td valign="top">
   <label for="first_name">First Name*</label>
