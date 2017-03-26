@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="resources/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="resources/js/bootstrap.min.js"></script>
+	<title>PregnoCare</title>
+<body style="background-color:#f4e8de">
+<nav  style="background-color:#42597f;" class="navbar navbar-default">
+</head>
+<body>
+<div class="wrapper">
+    <div class="sidebar" data-color="white">
+<div class="main-panel">
+        <nav class="navbar navbar-default navbar-fixed">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example-2">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Dashboard</a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-left">
+                        <li>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <i class="fa fa-dashboard"></i>
+								<p class="hidden-lg hidden-md">Dashboard</p>
+                            </a>
+                        </li>
+                        <li class="dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <i class="fa fa-globe"></i>
+                                    <b class="caret hidden-sm hidden-xs"></b>
+                                    <span class="notification hidden-sm hidden-xs"></span>
+									<p class="hidden-lg hidden-md">
+										Notifications
+										<b class="caret"></b>
+									</p>
+                              </a>
+                              <ul class="dropdown-menu">
+                                <li><a href="#">Breakfast Intake</a></li>
+                                <li><a href="#">Lunch Intake</a></li>
+                                <li><a href="#">Dinner Intake</a></li>
+                                <li><a href="#">Check weekly diet</a></li>  
+                              </ul>
+                        </li>
+                        <li>
+                           <a href="">
+                                <i class="fa fa-search"></i>
+								<p class="hidden-lg hidden-md">Search</p>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                           <a href="">
+                               <p>Account</p>
+                            </a>
+                        </li>
+                        <li class="dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <p>
+										Dropdown
+										<b class="caret"></b>
+									</p>
+                              </a>
+                              <ul class="dropdown-menu">
+                                <li><a href="#">Check Weekly Diet</a></li>
+                                <li><a href="#">Weekly Exercises</a></li>
+                                <li><a href="#">Breakfast Intake</a></li>
+                                <li><a href="#">Lunch Intake</a></li>
+                                <li><a href="#">Dinner Intake</a></li>
+                                <li class="divider"></li>
+                              </ul>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>Log out</p>
+                            </a>
+                        </li>
+						<li class="separator hidden-lg hidden-md"></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    	<div class="sidebar-wrapper">
+            <div class="logo">
+                <a href="index1.html" style="color:white:" class="simple-text">
+                    PregnoCare
+                </a>
+            </div>
+
+            <ul class="nav">
+                <li class="active">
+                    <a href="diet.html"  style="color:white;>
+                        <i class="pe-7s-graph"></i>
+                        <p>Diet</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="weekbyweek.html"  style="color:white;>
+                        <i class="pe-7s-user"></i>
+                        <p>Week-By-Week</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="Exercises.html"  style="color:white;>
+                        <i class="pe-7s-note2"></i>
+                        <p>Exercises</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="Contactus.html"  style="color:white;>
+                        <i class="pe-7s-news-paper"></i>
+                        <p>Contact Us</p>
+                    </a>
+                </li>
+            </ul>
+    	</div>
+    </div>
+       
+        <div class="content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="header">
+                                <h4 class="title">Email Statistics</h4>
+                                <p class="category">Last Month's Performance</p>
+                            </div>
+                            <div class="content">
+                                <div id="chartPreferences" class="ct-chart ct-perfect-fourth"></div>
+
+                                    <hr>
+                               
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-8">
+                        <div class="card">
+                            <div class="header">
+                                <h4 class="title">User Behavior</h4>
+                                <p class="category">Weekly Performance</p>
+                            </div>
+                            <div class="content">
+                                <div id="chartHours" class="ct-chart"></div>
+                            
+                                    <hr>
+                 </div>
+                    </div>
+
+<form class="col-1-3" action="#" method="post">
+
+  <fieldset>
+
+    <label>
+      Name
+      <input type="text" name="name" placeholder="Full name" required>
+    </label>
+ <label>
+      Password
+      <input type="text" name="Password" placeholder="Password" required>
+    </label>
+
+    <label>
+      Email
+      <input type="email" name="email" placeholder="Email address" required>
+    </label>
+
+    <label>
+      Number of Weeks Remaining
+      <select name="quantity" required>
+        <option value="1" selected>1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+    </label>
+
+    <label>
+      Due Date
+      <textarea name="Due Date"></textarea>
+    </label>
+
+  </fieldset>
+ <input class="btn" type="submit" name="submit" value="Login">
+ <label>
+      <input type="checkbox" name="remember"> Stay signed in
+    </label>
+</form>
+
+              
+</body>
+</html>
