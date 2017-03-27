@@ -12,7 +12,7 @@
 <h2 itemprop="headline">Stretching: Cobbler's Pose (Baddha Konasana)</h1>
 <div class="col-lg-1"> 
 <h3><strong>Benefits and Uses</strong></h3>
-<p>This version of cobbler’s pose is different from its restorative counterpart as it is done from a seated, not reclined, position. While both versions of the pose are fabulous hip openers, the seated version is an active (as opposed to passive) pose that requires the muscles to do a bit of strengthening work in addition to more intense stretching in the hips and back. The pose can also be a nice chest opener and spine lengthener. Try incorporating cobbler’s pose as a cool down from standing poses, towards the latter half of your yoga practice. &nbsp;</p>
+<p>This version of cobbler's pose is different from its restorative counterpart as it is done from a seated, not reclined, position. While both versions of the pose are fabulous hip openers, the seated version is an active (as opposed to passive) pose that requires the muscles to do a bit of strengthening work in addition to more intense stretching in the hips and back. The pose can also be a nice chest opener and spine lengthener. Try incorporating cobbler's pose as a cool down from standing poses, towards the latter half of your yoga practice. &nbsp;</p>
 <h3><strong>Directions</strong><br></h3>
 <div class="col-md-13">
 <img src="/PregnoCare/resources/Images/cobbler.jpg" title="prenatal-yoga-pose.jpg"><br>

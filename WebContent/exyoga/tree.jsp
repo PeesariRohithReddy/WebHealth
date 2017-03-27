@@ -12,7 +12,7 @@
 <h2 itemprop="headline">Balancing - Tree Pose (Vrksasana)</h1>
 <div class="col-lg-1"> 
 <h3><strong>Benefits and Uses</strong></h3>
-<p> Tree pose is primarily a balancing pose, which is also great for concentration and fun. Practicing balance is important for maintaining/improving sensory-motor function and coordination, and is essential to exercise throughout your life. During pregnancy a woman’s relationship to gravity shifts enormously with her growing belly. Having a steady sense of balance will help her to feel comfortable and stable as her pregnancy progresses. Practicing 'balance' in a bigger-picture context will also help women to balance the different priorities in her life as she prepares for motherhood. &nbsp;</p>
+<p> Tree pose is primarily a balancing pose, which is also great for concentration and fun. Practicing balance is important for maintaining/improving sensory-motor function and coordination, and is essential to exercise throughout your life. During pregnancy a woman's relationship to gravity shifts enormously with her growing belly. Having a steady sense of balance will help her to feel comfortable and stable as her pregnancy progresses. Practicing 'balance' in a bigger-picture context will also help women to balance the different priorities in her life as she prepares for motherhood. &nbsp;</p>
 <h3><strong>Directions</strong><br></h3>
 <div class="col-md-13">
 <img src="/PregnoCare/resources/Images/tree.jpg" title="prenatal-yoga-pose.jpg"><br>

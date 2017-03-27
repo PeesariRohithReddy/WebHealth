@@ -7,6 +7,8 @@
 <title>Avocado and roast chicken salad</title>
 </head>
 <body style="background-color: #eaecef">
+<div class="row">
+<div class="col-sm-10">
 <div class="large-10 columns" id="themesMainRelatedContainer">
 <div id="mainContent" class="medium-7 columns" data-oan="mainContent" itemscope="" itemtype="http://schema.org/Article">
 <div class="ribbonContainer bc-hide-for-small" style="display: none;">
@@ -17,6 +19,7 @@
 </div>
 </div>
 </div>
+
 <h2 itemprop="headline">Lunch: Avocado and roast chicken salad</h1>
 <div class="byline">
 </div>
@@ -45,6 +48,8 @@ This delicious salad is a great source of vitamin B6. Serves two, so share it wi
 Looking for another lunch idea? Try this recipe for a <a href="/PregnoCare/recipes/tapswich.jsp">Turkey avocado and provolone sandwich</a>.
 </div>
 </h2>
+</div>
+</div>
 </div>
 
 </div>

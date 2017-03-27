@@ -12,7 +12,7 @@
 <h2 itemprop="headline">Relaxing - Final Resting Pose (Savasana)</h1>
 <div class="col-lg-1"> 
 <h3><strong>Benefits and Uses</strong></h3>
-<p> Final resting pose (corpse pose) is the ultimate relaxation pose – lying flat on your back, with or without props, to ensure maximum comfort. This pose is generally taken at the end of a yoga class, as it provides a few moments to let all of the work done throughout the class settle into your body. After a challenging yoga practice, relaxation usually comes easily and will leave you feeling refreshed and ready to return to your day.  &nbsp;</p>
+<p> Final resting pose (corpse pose) is the ultimate relaxation pose - lying flat on your back, with or without props, to ensure maximum comfort. This pose is generally taken at the end of a yoga class, as it provides a few moments to let all of the work done throughout the class settle into your body. After a challenging yoga practice, relaxation usually comes easily and will leave you feeling refreshed and ready to return to your day.  &nbsp;</p>
 <h3><strong>Directions</strong><br></h3>
 <div class="col-md-13">
 <img src="/PregnoCare/resources/Images/savasana.jpg" title="prenatal-yoga-pose.jpg"><br>
