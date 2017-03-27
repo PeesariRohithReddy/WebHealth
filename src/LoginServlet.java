@@ -12,6 +12,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 import com.mysql.jdbc.ResultSet;
 
@@ -49,16 +50,16 @@ public class LoginServlet extends HttpServlet {
 		try
 		{
 			Class.forName("com.mysql.jdbc.Driver");
-			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/web_health_informatics","root","root");
+			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/webhealth","root","root");
 			PreparedStatement ps1=con.prepareStatement("select username,password from users where username=? and password=?");
 			ps1.setString(1, username);
 			ps1.setString(2,password);
 			java.sql.ResultSet rs=ps1.executeQuery();
 			if(rs.next()==true)
 			{
-				RequestDispatcher rd=request.getRequestDispatcher("/weekbyweek.html");
-				
-				rd.include(request,response);
+				HttpSession session=request.getSession();
+				session.setAttribute("username",username);
+				request.getRequestDispatcher("/dashboard.jsp").forward(request, response);
 			}
 			else
 			{
@@ -69,7 +70,7 @@ public class LoginServlet extends HttpServlet {
 		}
 		catch(Exception e)
 		{
-			System.out.println("Error description:\n");
+			System.out.println("Error description:\n"+e);
 		}
 	}
 

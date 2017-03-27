@@ -57,7 +57,7 @@ public class RegisterServlet extends HttpServlet {
 		{
 			try {
 				Class.forName("com.mysql.jdbc.Driver");
-				Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/web_health_informatics","root","root");
+				Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/webhealth","root","root");
 				PreparedStatement ps1=con.prepareStatement("select username from users where username=?");
 				ps1.setString(1,username);
 				java.sql.ResultSet rs=ps1.executeQuery();
